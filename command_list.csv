@@ -1,0 +1,45 @@
+    1  git config --global user.name "Alex"
+    2  git init
+    3  git config --global user.name "Alex"
+    4  git config --global user.email name@gmail.com
+    5  git config --global user.email shpuryka@gmail.com
+    6  git config --global user.name "шпуряка"
+    7  git config
+    8  git config --get
+    9  git config --get-all
+   10  git clone https://github.com/nik137/HW_10.git
+   11  cd D;/Clone/HW_10
+   12  cd D;/CLONE/HW_10
+   13  cd D;\CLONE\HW_10
+   14  cd d;\CLONE\HW_10
+   15  cd d;
+   16  cd CLONE
+   17  cd /CLONE
+   18  cd \CLONE
+   19  cd
+   20  cd d
+   21  cd: d
+   22  cd: d;
+   23  cd d;
+   24  cd d;/
+   25  cd d:/
+   26  cd d:/CLONE
+   27  cd d:/CLONE/HW_10
+   28  touch text_ignore.txt
+   29  git status
+   30  git add .
+   31  git status
+   32  git commit -am "commit message"
+   33  git add .
+   34  git commit -am "commit message1"
+   35  git branch develop
+   36  git checkout develop
+   37  git add .
+   38  git commit -am "commit message2"
+   39  git status
+   40  git add .
+   41  git commit -am "commit message3"
+   42  git checkout main
+   43  git merge develop
+   44  git log
+   45  history > command_list.csv
